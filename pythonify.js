@@ -8,7 +8,7 @@
 */
 
 // ----------------------------------
-// 	         Array Functions
+//          Array Functions
 // ----------------------------------
 
 // Append Function
@@ -65,7 +65,7 @@ Array.prototype.count = function(el){
 }
 
 // ---------------------------
-//	     String Functions
+//      String Functions
 // ---------------------------
 
 String.prototype._split = function(string=""){	// Split Function. Just a slight change as the use of split inside split will result in a Call Stack Exceed.
@@ -100,7 +100,7 @@ String.prototype.startswith = function(str=""){return this.startsWith(str.toStri
 String.prototype.endswith = function(str=""){return this.endsWith(str.toString());}
 
 // ---------------------------
-//	    Standard Functions
+//     Standard Functions
 // ---------------------------
 
 var print = (string="",end="\n") => {console.log(string.toString()+`${end}`);return string.toString()+`${end}`};
