@@ -5,6 +5,8 @@
 	Just a silly project to streamline stuff that otherwise takes a little getting used to.
 
 	Note : Arrow Functions have been used wherever convinient.
+
+	Prerequisite : ES6 Supportive Browser. Check caniuse.com to see if your browser supports ES6 or not.
 */
 
 // ----------------------------------
